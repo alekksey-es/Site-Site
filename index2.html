@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DvizhMinsk</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="logo.jpg" >
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+
+    $("body").fadeIn(2000);
+
+	$("a.").click(function(event){
+		event.preventDefault();
+		linkLocation = this.href;
+		$("body").fadeOut(1000, redirectPage);
+	});
+
+	function redirectPage() {
+		window.location = linkLocation;
+	}
+});
+</script>
+	<header>
+	<div class="logo">
+		<h1><a href="index.html"><img src="IMG_2019.png" width="200" height="200"></a></h1>		
+	</div>
+	<div class="bg">
+		<div class="news">
+			<p><b>НОВОСТИ</b></p>
+		</div>
+</div>
+	</header>
+	<a href="">
+		<p class="bez2">Горнолыжный курорт</p>
+		<p class="news12">Горнолыжный спортивный оздоровительный комплекс «Логойск» ⛷</p></a>
+	<div class="news1">
+		<a href=""><img width="450px" height="300px" src="news1.jpg"></a>
+	</div>	
+	<a href="">
+		<p class="bez">Розыгрыш!!!</p>
+		<p class="news11">19 февраля настанет тот день безумия 🔥</p></a>
+		<div class="news2">
+		<a href=""><img width="450px" height="300px" src="news2.jpg"></a>
+	</div>	
+
+
+
+	<ul>
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="index2.html" style="color: #F0E68C;">Новости</a></li>
+		<li><a href="index3.html">Магазин</a></li>
+		<li><a href="index4.html">О нас</a></li>
+		<li><a href="index5.html">Контакты</a></li>
+	</ul>
+	<div class="navv">
+	<ul id="nav">
+		<li style="font-size: 30px;">☎
+			<ul>
+				<li><a href="https://vk.com/dvizhpartyminsk">Vkontakte</a></li>
+				<li><a href="https://www.instagram.com/dvizh_minsk/">Instagram</a></li>
+				<li><a href="https://t.me/dvizhminsk">Telegram</a></li>
+				<li><a href="https://www.youtube.com/channel/UCB3fUAqPni-3LItTtt5bSSw">YouTube</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	
+
+</body>
+</html>

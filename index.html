@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DvizhMinsk</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="logo.jpg" >
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+
+    $("body").fadeIn(2000);
+
+	$("a.").click(function(event){
+		event.preventDefault();
+		linkLocation = this.href;
+		$("body").fadeOut(1000, redirectPage);
+	});
+
+	function redirectPage() {
+		window.location = linkLocation;
+	}
+});
+</script>
+	<header>
+
+	<div class="logo">
+		<h1><a href="index.html"><img src="IMG_2019.png" width="200" height="200"></a></h1>		
+	</div>
+
+	</header>
+	<div class="dvizh">
+	<p><b><span style="color: white; font-size: 70px; font-family:Seb Neue, sans-serif;">Dv<b><span style="color: red; font-size: 70px; font-family:Seb Neue, sans-serif;">i<b><span style="color: white; font-size: 70px; font-family:Seb Neue, sans-serif;">zh</span><span style="color: white; font-size: 70px; font-family: Seb Neue, sans-serif;"> M<b><span style="color: green; font-size: 70px; font-family:Seb Neue, sans-serif;">i</span><b><span style="color: white; font-size: 70px; font-family:Seb Neue, sans-serif;">nsk</span></b></p>
+	</div>
+	<div class="dvizh2">
+	<p><b><span style=" mix-blend-mode: multiply; font-family: Seb Neue, sans-serif; font-size: 60px; opacity: .3; -webkit-text-stroke: .04em white;">Official</span></b></p>
+</div>
+<div id="info">
+	<ul>
+		<li><a href="index.html" style="color: #F0E68C;">Главная</a></li>
+		<li><a href="index2.html">Новости</a></li>
+		<li><a href="index3.html">Магазин</a></li>
+		<li><a href="index4.html">О нас</a></li>
+		<li><a href="index5.html">Контакты</a></li>
+	</ul>
+</div>
+	<div class="navv">
+	<ul id="nav">
+		<li style="font-size: 30px;">☎
+			<ul>
+				<li><a href="https://vk.com/dvizhpartyminsk">Vkontakte</a></li>
+				<li><a href="https://www.instagram.com/dvizh_minsk/">Instagram</a></li>
+				<li><a href="https://t.me/dvizhminsk">Telegram</a></li>
+				<li><a href="https://www.youtube.com/channel/UCB3fUAqPni-3LItTtt5bSSw">YouTube</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	<div class="fullscreen-bg" style="filter: blur(10px);">
+<video loop muted autoplay poster="media/videoframe.png" class="fullscreen-bg__video">
+<source src="osn.mp4" type="video/mp4">
+</video>
+</div>
+
+</body>
+</html>

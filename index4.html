@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DvizhMinsk</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="logo.jpg" >
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+
+    $("body").fadeIn(2000);
+
+	$("a.").click(function(event){
+		event.preventDefault();
+		linkLocation = this.href;
+		$("body").fadeOut(1000, redirectPage);
+	});
+
+	function redirectPage() {
+		window.location = linkLocation;
+	}
+});
+</script>
+	<header>
+	<div class="logo">
+		<h1><a href="index.html"><img src="IMG_2019.png" width="200" height="200"></a></h1>		
+	</div>
+	<div class="bg">
+		<div class="news">
+			<p><b>О нас</b></p>
+		</div>
+</div>
+	</header>
+	<div class="zhizha">
+		<img width="300" height="400" src="https://sun9-49.userapi.com/impf/c845017/v845017551/1a54f9/uNchW_kTf9Q.jpg?size=780x1040&quality=96&proxy=1&sign=1fb5bc9b9cf24060249900578482b0db&type=album">
+		<p class="zhizhatext">Дмитрий - создатель движ минск, дальше мне писать лень ))</p>
+	</div>
+
+	<ul>
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="index2.html">Новости</a></li>
+		<li><a href="index3.html">Магазин</a></li>
+		<li><a href="index4.html" style="color: #F0E68C;">О нас</a></li>
+		<li><a href="index5.html">Контакты</a></li>
+	</ul>
+	<div class="navv">
+	<ul id="nav">
+		<li style="font-size: 30px;">☎
+			<ul>
+				<li><a href="https://vk.com/dvizhpartyminsk">Vkontakte</a></li>
+				<li><a href="https://www.instagram.com/dvizh_minsk/">Instagram</a></li>
+				<li><a href="https://t.me/dvizhminsk">Telegram</a></li>
+				<li><a href="https://www.youtube.com/channel/UCB3fUAqPni-3LItTtt5bSSw">YouTube</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	
+
+</body>
+</html>
